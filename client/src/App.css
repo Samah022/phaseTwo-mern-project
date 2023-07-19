@@ -1,0 +1,53 @@
+body {
+  background-color: #333 !important;
+}
+
+.form,
+.result {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 25px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  clear: both;
+  color: white;
+  background-color: #02a885;
+  height: 50px;
+  padding: 10px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+
+Label {
+  color: rgb(254, 254, 254);
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none !important;
+  font-weight: bold;
+}
